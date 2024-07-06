@@ -12,6 +12,7 @@ main:
 
   INT 20H
 
+
 IniciarModoVideo:
   MOV AH, 0h
   MOV AL, 12h      ; Modo gráfico 640x480, 16 colores
